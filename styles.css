@@ -1,16 +1,16 @@
 
 /* Your CSS Code here. */
-.container {
+.holder{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Set the height of the container to the full viewport height */
+   height: 100vh; 
 }
 .item-1 {
-  /* Optional: Set width and height of item-1 */
+ 
   width: 200px;
-  height: 100px;
-  /* Center item-1 using Flexbox */
+  height: 200px;
+
   display: flex;
   justify-content: center;
   align-items: center;
