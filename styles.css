@@ -1,2 +1,18 @@
 
 /* Your CSS Code here. */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set the height of the container to the full viewport height */
+}
+.item-1 {
+  /* Optional: Set width and height of item-1 */
+  width: 200px;
+  height: 100px;
+  /* Center item-1 using Flexbox */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	background-color:red;
+}
